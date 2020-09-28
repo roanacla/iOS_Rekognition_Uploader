@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1866842521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */; };
+		DB1866862521A3C100DFE335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866852521A3C100DFE335 /* ContentView.swift */; };
+		DB1866882521A3C200DFE335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1866872521A3C200DFE335 /* Assets.xcassets */; };
+		DB18668B2521A3C200DFE335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB18668A2521A3C200DFE335 /* Preview Assets.xcassets */; };
+		DB1866962521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866952521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift */; };
+		DB1866A12521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1866922521A3C300DFE335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1866782521A3C100DFE335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB18667F2521A3C100DFE335;
+			remoteInfo = iOS_Rekognition_Uploader;
+		};
+		DB18669D2521A3C300DFE335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1866782521A3C100DFE335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB18667F2521A3C100DFE335;
+			remoteInfo = iOS_Rekognition_Uploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1866802521A3C100DFE335 /* iOS_Rekognition_Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Rekognition_Uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderApp.swift; sourceTree = "<group>"; };
+		DB1866852521A3C100DFE335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB1866872521A3C200DFE335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB18668A2521A3C200DFE335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB18668C2521A3C200DFE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1866912521A3C300DFE335 /* iOS_Rekognition_UploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Rekognition_UploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1866952521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderTests.swift; sourceTree = "<group>"; };
+		DB1866972521A3C300DFE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB18669C2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Rekognition_UploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderUITests.swift; sourceTree = "<group>"; };
+		DB1866A22521A3C300DFE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB18667D2521A3C100DFE335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB18668E2521A3C300DFE335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1866992521A3C300DFE335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1866772521A3C100DFE335 = {
+			isa = PBXGroup;
+			children = (
+				DB1866822521A3C100DFE335 /* iOS_Rekognition_Uploader */,
+				DB1866942521A3C300DFE335 /* iOS_Rekognition_UploaderTests */,
+				DB18669F2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests */,
+				DB1866812521A3C100DFE335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1866812521A3C100DFE335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1866802521A3C100DFE335 /* iOS_Rekognition_Uploader.app */,
+				DB1866912521A3C300DFE335 /* iOS_Rekognition_UploaderTests.xctest */,
+				DB18669C2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1866822521A3C100DFE335 /* iOS_Rekognition_Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */,
+				DB1866852521A3C100DFE335 /* ContentView.swift */,
+				DB1866872521A3C200DFE335 /* Assets.xcassets */,
+				DB18668C2521A3C200DFE335 /* Info.plist */,
+				DB1866892521A3C200DFE335 /* Preview Content */,
+			);
+			path = iOS_Rekognition_Uploader;
+			sourceTree = "<group>";
+		};
+		DB1866892521A3C200DFE335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB18668A2521A3C200DFE335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB1866942521A3C300DFE335 /* iOS_Rekognition_UploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1866952521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift */,
+				DB1866972521A3C300DFE335 /* Info.plist */,
+			);
+			path = iOS_Rekognition_UploaderTests;
+			sourceTree = "<group>";
+		};
+		DB18669F2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */,
+				DB1866A22521A3C300DFE335 /* Info.plist */,
+			);
+			path = iOS_Rekognition_UploaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB18667F2521A3C100DFE335 /* iOS_Rekognition_Uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1866A52521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_Uploader" */;
+			buildPhases = (
+				DB18667C2521A3C100DFE335 /* Sources */,
+				DB18667D2521A3C100DFE335 /* Frameworks */,
+				DB18667E2521A3C100DFE335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Rekognition_Uploader;
+			productName = iOS_Rekognition_Uploader;
+			productReference = DB1866802521A3C100DFE335 /* iOS_Rekognition_Uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1866902521A3C300DFE335 /* iOS_Rekognition_UploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1866A82521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderTests" */;
+			buildPhases = (
+				DB18668D2521A3C300DFE335 /* Sources */,
+				DB18668E2521A3C300DFE335 /* Frameworks */,
+				DB18668F2521A3C300DFE335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1866932521A3C300DFE335 /* PBXTargetDependency */,
+			);
+			name = iOS_Rekognition_UploaderTests;
+			productName = iOS_Rekognition_UploaderTests;
+			productReference = DB1866912521A3C300DFE335 /* iOS_Rekognition_UploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB18669B2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1866AB2521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderUITests" */;
+			buildPhases = (
+				DB1866982521A3C300DFE335 /* Sources */,
+				DB1866992521A3C300DFE335 /* Frameworks */,
+				DB18669A2521A3C300DFE335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB18669E2521A3C300DFE335 /* PBXTargetDependency */,
+			);
+			name = iOS_Rekognition_UploaderUITests;
+			productName = iOS_Rekognition_UploaderUITests;
+			productReference = DB18669C2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1866782521A3C100DFE335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DB18667F2521A3C100DFE335 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DB1866902521A3C300DFE335 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB18667F2521A3C100DFE335;
+					};
+					DB18669B2521A3C300DFE335 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DB18667F2521A3C100DFE335;
+					};
+				};
+			};
+			buildConfigurationList = DB18667B2521A3C100DFE335 /* Build configuration list for PBXProject "iOS_Rekognition_Uploader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1866772521A3C100DFE335;
+			productRefGroup = DB1866812521A3C100DFE335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB18667F2521A3C100DFE335 /* iOS_Rekognition_Uploader */,
+				DB1866902521A3C300DFE335 /* iOS_Rekognition_UploaderTests */,
+				DB18669B2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB18667E2521A3C100DFE335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB18668B2521A3C200DFE335 /* Preview Assets.xcassets in Resources */,
+				DB1866882521A3C200DFE335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB18668F2521A3C300DFE335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB18669A2521A3C300DFE335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB18667C2521A3C100DFE335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1866862521A3C100DFE335 /* ContentView.swift in Sources */,
+				DB1866842521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB18668D2521A3C300DFE335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1866962521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1866982521A3C300DFE335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1866A12521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1866932521A3C300DFE335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB18667F2521A3C100DFE335 /* iOS_Rekognition_Uploader */;
+			targetProxy = DB1866922521A3C300DFE335 /* PBXContainerItemProxy */;
+		};
+		DB18669E2521A3C300DFE335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB18667F2521A3C100DFE335 /* iOS_Rekognition_Uploader */;
+			targetProxy = DB18669D2521A3C300DFE335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB1866A32521A3C300DFE335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1866A42521A3C300DFE335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1866A62521A3C300DFE335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_Rekognition_Uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_Rekognition_Uploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1866A72521A3C300DFE335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_Rekognition_Uploader/Preview Content\"";
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_Rekognition_Uploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB1866A92521A3C300DFE335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_Rekognition_UploaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Rekognition_Uploader.app/iOS_Rekognition_Uploader";
+			};
+			name = Debug;
+		};
+		DB1866AA2521A3C300DFE335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_Rekognition_UploaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Rekognition_Uploader.app/iOS_Rekognition_Uploader";
+			};
+			name = Release;
+		};
+		DB1866AC2521A3C300DFE335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_Rekognition_UploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Rekognition_Uploader;
+			};
+			name = Debug;
+		};
+		DB1866AD2521A3C300DFE335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOS_Rekognition_UploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alquimia.iOS-Rekognition-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Rekognition_Uploader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB18667B2521A3C100DFE335 /* Build configuration list for PBXProject "iOS_Rekognition_Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1866A32521A3C300DFE335 /* Debug */,
+				DB1866A42521A3C300DFE335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1866A52521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1866A62521A3C300DFE335 /* Debug */,
+				DB1866A72521A3C300DFE335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1866A82521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1866A92521A3C300DFE335 /* Debug */,
+				DB1866AA2521A3C300DFE335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1866AB2521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1866AC2521A3C300DFE335 /* Debug */,
+				DB1866AD2521A3C300DFE335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1866782521A3C100DFE335 /* Project object */;
+}
