@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct iOS_Rekognition_UploaderApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		DB18668B2521A3C200DFE335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB18668A2521A3C200DFE335 /* Preview Assets.xcassets */; };
 		DB1866962521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866952521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift */; };
 		DB1866A12521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */; };
+		DB1866BD2521B5EC00DFE335 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DB1866BB2521B5EC00DFE335 /* amplifyconfiguration.json */; };
+		DB1866BE2521B5EC00DFE335 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DB1866BC2521B5EC00DFE335 /* awsconfiguration.json */; };
+		DB1866C625224A1D00DFE335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866C525224A1D00DFE335 /* AppDelegate.swift */; };
 		E25C11840478A44115206C91 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F055611EDD58A2704E4CEB02 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		DB18669C2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Rekognition_UploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderUITests.swift; sourceTree = "<group>"; };
 		DB1866A22521A3C300DFE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1866BB2521B5EC00DFE335 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		DB1866BC2521B5EC00DFE335 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		DB1866C525224A1D00DFE335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F055611EDD58A2704E4CEB02 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,7 +113,6 @@
 				2D5AD3A5B15A0CEAA1265359 /* Pods-iOS_Rekognition_UploaderTests.debug.xcconfig */,
 				C75ABD281E94DA247AF6088F /* Pods-iOS_Rekognition_UploaderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,8 +141,11 @@
 		DB1866822521A3C100DFE335 /* iOS_Rekognition_Uploader */ = {
 			isa = PBXGroup;
 			children = (
+				DB1866C525224A1D00DFE335 /* AppDelegate.swift */,
 				DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */,
 				DB1866852521A3C100DFE335 /* ContentView.swift */,
+				DB1866BB2521B5EC00DFE335 /* amplifyconfiguration.json */,
+				DB1866BC2521B5EC00DFE335 /* awsconfiguration.json */,
 				DB1866872521A3C200DFE335 /* Assets.xcassets */,
 				DB18668C2521A3C200DFE335 /* Info.plist */,
 				DB1866892521A3C200DFE335 /* Preview Content */,
@@ -279,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1866BE2521B5EC00DFE335 /* awsconfiguration.json in Resources */,
 				DB18668B2521A3C200DFE335 /* Preview Assets.xcassets in Resources */,
+				DB1866BD2521B5EC00DFE335 /* amplifyconfiguration.json in Resources */,
 				DB1866882521A3C200DFE335 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1866C625224A1D00DFE335 /* AppDelegate.swift in Sources */,
 				DB1866862521A3C100DFE335 /* ContentView.swift in Sources */,
 				DB1866842521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift in Sources */,
 			);
