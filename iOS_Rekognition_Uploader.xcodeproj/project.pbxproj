@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CB4827D876E383827C7464E /* Pods_iOS_Rekognition_Uploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220B56D75E921F8DF85CAA4E /* Pods_iOS_Rekognition_Uploader.framework */; };
+		8D929CCE0F0420D0D3C573A5 /* Pods_iOS_Rekognition_UploaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8348B581A4776C2C94244C39 /* Pods_iOS_Rekognition_UploaderTests.framework */; };
 		DB1866842521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */; };
 		DB1866862521A3C100DFE335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866852521A3C100DFE335 /* ContentView.swift */; };
 		DB1866882521A3C200DFE335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1866872521A3C200DFE335 /* Assets.xcassets */; };
 		DB18668B2521A3C200DFE335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB18668A2521A3C200DFE335 /* Preview Assets.xcassets */; };
 		DB1866962521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866952521A3C300DFE335 /* iOS_Rekognition_UploaderTests.swift */; };
 		DB1866A12521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */; };
+		E25C11840478A44115206C91 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F055611EDD58A2704E4CEB02 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220B56D75E921F8DF85CAA4E /* Pods_iOS_Rekognition_Uploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Rekognition_Uploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6FA42D8891E9449633D2D3 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5AD3A5B15A0CEAA1265359 /* Pods-iOS_Rekognition_UploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_UploaderTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_UploaderTests/Pods-iOS_Rekognition_UploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F39F2E73EC131B4406FA60 /* Pods-iOS_Rekognition_Uploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_Uploader.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_Uploader/Pods-iOS_Rekognition_Uploader.debug.xcconfig"; sourceTree = "<group>"; };
+		418AF0036797EDA77BF36CB2 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8348B581A4776C2C94244C39 /* Pods_iOS_Rekognition_UploaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Rekognition_UploaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75ABD281E94DA247AF6088F /* Pods-iOS_Rekognition_UploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_UploaderTests.release.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_UploaderTests/Pods-iOS_Rekognition_UploaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC0D6AB15BE6B42D19A4D3B /* Pods-iOS_Rekognition_Uploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rekognition_Uploader.release.xcconfig"; path = "Target Support Files/Pods-iOS_Rekognition_Uploader/Pods-iOS_Rekognition_Uploader.release.xcconfig"; sourceTree = "<group>"; };
 		DB1866802521A3C100DFE335 /* iOS_Rekognition_Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Rekognition_Uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1866832521A3C100DFE335 /* iOS_Rekognition_UploaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderApp.swift; sourceTree = "<group>"; };
 		DB1866852521A3C100DFE335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,7 @@
 		DB18669C2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Rekognition_UploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1866A02521A3C300DFE335 /* iOS_Rekognition_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Rekognition_UploaderUITests.swift; sourceTree = "<group>"; };
 		DB1866A22521A3C300DFE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F055611EDD58A2704E4CEB02 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4827D876E383827C7464E /* Pods_iOS_Rekognition_Uploader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D929CCE0F0420D0D3C573A5 /* Pods_iOS_Rekognition_UploaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25C11840478A44115206C91 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		444B0C715688AFAE5C9FFAB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220B56D75E921F8DF85CAA4E /* Pods_iOS_Rekognition_Uploader.framework */,
+				F055611EDD58A2704E4CEB02 /* Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests.framework */,
+				8348B581A4776C2C94244C39 /* Pods_iOS_Rekognition_UploaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63D255D145AFF65DB6A3647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F39F2E73EC131B4406FA60 /* Pods-iOS_Rekognition_Uploader.debug.xcconfig */,
+				CFC0D6AB15BE6B42D19A4D3B /* Pods-iOS_Rekognition_Uploader.release.xcconfig */,
+				418AF0036797EDA77BF36CB2 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.debug.xcconfig */,
+				2C6FA42D8891E9449633D2D3 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.release.xcconfig */,
+				2D5AD3A5B15A0CEAA1265359 /* Pods-iOS_Rekognition_UploaderTests.debug.xcconfig */,
+				C75ABD281E94DA247AF6088F /* Pods-iOS_Rekognition_UploaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB1866772521A3C100DFE335 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,8 @@
 				DB1866942521A3C300DFE335 /* iOS_Rekognition_UploaderTests */,
 				DB18669F2521A3C300DFE335 /* iOS_Rekognition_UploaderUITests */,
 				DB1866812521A3C100DFE335 /* Products */,
+				C63D255D145AFF65DB6A3647 /* Pods */,
+				444B0C715688AFAE5C9FFAB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1866A52521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_Uploader" */;
 			buildPhases = (
+				C681820763559DA5BE96475F /* [CP] Check Pods Manifest.lock */,
 				DB18667C2521A3C100DFE335 /* Sources */,
 				DB18667D2521A3C100DFE335 /* Frameworks */,
 				DB18667E2521A3C100DFE335 /* Resources */,
+				878DA850A9FE4E4B3779775F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1866A82521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderTests" */;
 			buildPhases = (
+				2ABE60C913D125720F8133D0 /* [CP] Check Pods Manifest.lock */,
 				DB18668D2521A3C300DFE335 /* Sources */,
 				DB18668E2521A3C300DFE335 /* Frameworks */,
 				DB18668F2521A3C300DFE335 /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB1866AB2521A3C300DFE335 /* Build configuration list for PBXNativeTarget "iOS_Rekognition_UploaderUITests" */;
 			buildPhases = (
+				88AFC4047F024BB6401E2313 /* [CP] Check Pods Manifest.lock */,
 				DB1866982521A3C300DFE335 /* Sources */,
 				DB1866992521A3C300DFE335 /* Frameworks */,
 				DB18669A2521A3C300DFE335 /* Resources */,
+				6B85374E2FAAFF7931A7D5E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ABE60C913D125720F8133D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Rekognition_UploaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B85374E2FAAFF7931A7D5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878DA850A9FE4E4B3779775F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader/Pods-iOS_Rekognition_Uploader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader/Pods-iOS_Rekognition_Uploader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Rekognition_Uploader/Pods-iOS_Rekognition_Uploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AFC4047F024BB6401E2313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C681820763559DA5BE96475F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Rekognition_Uploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB18667C2521A3C100DFE335 /* Sources */ = {
@@ -414,6 +563,7 @@
 		};
 		DB1866A62521A3C300DFE335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F39F2E73EC131B4406FA60 /* Pods-iOS_Rekognition_Uploader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +586,7 @@
 		};
 		DB1866A72521A3C300DFE335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC0D6AB15BE6B42D19A4D3B /* Pods-iOS_Rekognition_Uploader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +609,7 @@
 		};
 		DB1866A92521A3C300DFE335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5AD3A5B15A0CEAA1265359 /* Pods-iOS_Rekognition_UploaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +632,7 @@
 		};
 		DB1866AA2521A3C300DFE335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75ABD281E94DA247AF6088F /* Pods-iOS_Rekognition_UploaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +655,7 @@
 		};
 		DB1866AC2521A3C300DFE335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418AF0036797EDA77BF36CB2 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +676,7 @@
 		};
 		DB1866AD2521A3C300DFE335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6FA42D8891E9449633D2D3 /* Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
