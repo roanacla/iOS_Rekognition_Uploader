@@ -10,6 +10,11 @@
       "StackName": "amplify-iosrekognitionupload-dev-230804",
       "StackId": "arn:aws:cloudformation:us-east-1:756906170378:stack/amplify-iosrekognitionupload-dev-230804/f9ec5a80-0150-11eb-af62-0a91287fb5a1",
       "AmplifyAppId": "d1xi33b6aps2cv"
+    },
+    "categories": {
+      "auth": {
+        "iosrekognitionupload43b8ce57": {}
+      }
     }
   }
 }

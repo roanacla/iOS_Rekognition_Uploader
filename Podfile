@@ -5,6 +5,9 @@ target 'iOS_Rekognition_Uploader' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Amplify'
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+  pod 'AWSPredictionsPlugin'
+  pod 'CoreMLPredictionsPlugin'
 
   # Pods for iOS_Rekognition_Uploader
 
