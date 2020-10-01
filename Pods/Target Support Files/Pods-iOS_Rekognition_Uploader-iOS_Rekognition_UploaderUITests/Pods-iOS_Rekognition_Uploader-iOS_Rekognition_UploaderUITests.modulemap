@@ -1,6 +1,0 @@
-framework module Pods_iOS_Rekognition_Uploader_iOS_Rekognition_UploaderUITests {
-  umbrella header "Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -116,13 +116,6 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>Pods-iOS_Rekognition_Uploader-iOS_Rekognition_UploaderUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>17</integer>
-		</dict>
 		<key>Pods-iOS_Rekognition_Uploader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -131,6 +124,13 @@
 			<integer>16</integer>
 		</dict>
 		<key>Pods-iOS_Rekognition_UploaderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Pods-iOS_Rekognition_UploaderUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

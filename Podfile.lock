@@ -49,6 +49,7 @@ PODS:
 DEPENDENCIES:
   - Amplify
   - AmplifyPlugins/AWSCognitoAuthPlugin
+  - AWSMobileClient
   - AWSPredictionsPlugin
   - CoreMLPredictionsPlugin
 
@@ -89,6 +90,6 @@ SPEC CHECKSUMS:
   AWSTranslate: 27b61b88ab62c4c74719e4da46ac1d78180faeaa
   CoreMLPredictionsPlugin: 2c9ca2df6e77fae6e6cd86a70c1a679d5e3be4b8
 
-PODFILE CHECKSUM: 778d907cc86ec714940ac70576ce073766fcc7dc
+PODFILE CHECKSUM: fa6782d5a01c6852ed51a4b8f919e61af57de980
 
 COCOAPODS: 1.9.3
